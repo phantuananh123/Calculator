@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-size: 24px;
+  font-weight: 700;
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #29262c;
+}
+#Calculator {
+  border-radius: 7.5pt;
+  padding-top: 15pt;
+  padding-right: 15pt;
+  padding-bottom: 15pt;
+  padding-left: 15pt;
+  height: 400px;
+  width: 400px;
+  background-color: #967c6d;
+  max-width: 25pc;
+  margin-top: 0.208333333in;
+  margin-left: 0.208333333in;
+  margin-bottom: 0.208333333in;
+  margin-right: 0.208333333in;
+  margin-top: 0.208333333in;
+}
+#display {
+  color: white;
+  display: flex;
+  justify-content: end;
+  border-radius: 0.052083333in;
+  height: 2.5pc;
+  letter-spacing: 0.125pc;
+  padding-right: 0.625pc;
+  padding-top: 0.625pc;
+  padding-bottom: 0.625pc;
+  background-color: #382325;
+  margin-bottom: 0.625pc;
+  margin-top: 0.625pc;
+  margin-right: 0.625pc;
+  margin-left: 0.625pc;
+}
+.row {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-wrapper {
+  height: 3.75pc;
+  flex-basis: 25%;
+  padding-right: 0.625pc;
+  padding-top: 0.625pc;
+  padding-left: 0.625pc;
+  padding-bottom: 0.625pc;
+}
+.button.clear {
+  color: white;
+  background-color: #923532;
+}
+.button.equal {
+  color: white;
+  background-color: #923532;
+}
+.button {
+  border-radius: 0.052083333in;
+  height: 100%;
+  width: 100%;
+  color: #d74742;
+}
